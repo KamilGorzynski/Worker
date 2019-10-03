@@ -1,6 +1,6 @@
 # Worker
 
-Simply http server base on Django Rest Framework. Application contains worker which periodically calls urls from database. Responses stored as requests history.
+Simply http server based on Django Rest Framework. Application contains worker which periodically calls urls from database. Responses stored as requests history.
 
 ## Project is created with:
 
