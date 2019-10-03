@@ -1,10 +1,37 @@
-Project is created with:
+# Worker
+
+Simply http server base on Django Rest Framework. Application contains worker which periodically calls urls from database. Responses stored as requests history.
+
+## Project is created with:
 
 * Python              3.7.0
 * Django              2.2.5
 * Django Rest Framework 3.10.3
 
+## Installing
+I. Create the project directory:
+```
+mkdir project
+cd project
+```
+II. Iniciate virtual environment:
+```
+python -m venv env
+env\Scripts\activate
+```
 
+III. Frameworks instalations:
+```
+pip install django
+pip install djangorestframework
+```
+
+IV. Download the project via Git:
+```
+git init
+git remote add origin https://github.com/KamilGorzynski/base64Kamil-Gorzynski.git
+git pull origin master
+```
 ## Run Worker
 
 ```
